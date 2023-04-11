@@ -8,7 +8,6 @@ public class SavePaintingScores : MonoBehaviour
 {
 
     public PaintingDetails[] paintingDetails; 
-    public bool save = false; //Testing button
 
     public void CreateTextFile(){
         string textDocument = Application.streamingAssetsPath + "/PaintingScores/" + "Scores" + ".txt";
@@ -27,15 +26,6 @@ public class SavePaintingScores : MonoBehaviour
     void Start()
     {
         Directory.CreateDirectory(Application.streamingAssetsPath + "/PaintingScores/");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(save){
-            CreateTextFile();//Add this to a button
-            save = false;
-        }
     }
 
     void OnApplicationQuit()
