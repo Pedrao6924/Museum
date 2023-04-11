@@ -1,3 +1,7 @@
+This file can be found in
+Museum\Assets\StreamingAssets\PaintingScores\Scores.txt
+
+
 ==SCORES==
 
 11 => 0
