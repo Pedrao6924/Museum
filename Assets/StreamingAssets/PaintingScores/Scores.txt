@@ -1,7 +1,3 @@
-This file can be found in
-Museum\Assets\StreamingAssets\PaintingScores\Scores.txt
-
-
 ==SCORES==
 
 11 => 0
@@ -15,9 +11,9 @@ Museum\Assets\StreamingAssets\PaintingScores\Scores.txt
 19 => 0
 110 => 0
 111 => 0
-21 => 0
-22 => 0
-23 => 0
+21 => 151
+22 => 33
+23 => 104490
 31 => 0
 32 => 0
 33 => 0
